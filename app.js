@@ -50,7 +50,7 @@ onButton.addEventListener("click", (e) => {
 });
 
 startButton.addEventListener("click", (e) => {
-    if (on || win) {
+    if (on) {
         play();
     }
 })
