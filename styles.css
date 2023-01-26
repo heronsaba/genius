@@ -7,12 +7,19 @@ body {
     margin-right: 20px;
   }
   
-  .button {
+  .button#start {
     border-radius: 50% !important;
-    font-size: 1.5em;
-    background-color: lightgray;
+    font-size: 1.3em;
+    background-color: red;
+    color: black;
   }
-  
+
+  .toggle{
+    background-color: yellow;
+  }
+  .bttn{
+    cursor: pointer;
+  }
   #switches {
     position: absolute;
     font-family: 'Original Surfer', cursive;
@@ -24,7 +31,7 @@ body {
     position: absolute;
     font-family: 'Original Surfer', cursive;
     margin-left: 83px;
-    margin-top: 197px;
+    margin-top: 200px;
   }
   
   .text1 {
@@ -39,14 +46,18 @@ body {
   }
   
   #title {
+    text-shadow: 5px 5px 4px white;
     font-family: 'Original Surfer', cursive;
     position: absolute;
     font-size: 40px;
     margin-left: 35px;
     margin-top: 40px;
+    color: black;
   }
   
   #turn {
+  
+    box-shadow: 3px 3px 20px #7f0101;
     position: absolute;
     background: #330000;
     color: red;
@@ -148,7 +159,7 @@ body {
   
   #inner-circle {
     position: absolute;
-    background: grey;
+    background: rgb(193, 189, 189);
     border-radius: 50%;
     height: 250px;
     width: 250px;
